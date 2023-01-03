@@ -21,7 +21,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Naomi Mardon</a>
+        <p class="navbar-brand">Naomi Mardon</p>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="#about_me">About Me</a>
@@ -76,22 +76,24 @@
             </div>
             <div class="col-lg-8">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <div class="card">
+                    <div class="col-lg-12">
+                        <div class="card Project1">
                             <div class="card-body">
                                 <h5 class="card-title">Prework Study Guide</h5>
-                                <p class="card-text">A basic webpage with notes on everything I learnt during the
-                                    prework assignment</p>
-                                <a href="https://naomimardon.github.io/prework-study-guide/" target="_blank"
-                                    class="btn btn-primary">Visit</a>
+                                <div class="card-main">
+                                    <p class="card-text">A basic webpage with notes on everything I learnt during the
+                                        prework assignment</p>
+                                    <a href="https://naomimardon.github.io/prework-study-guide/" target="_blank"
+                                        class="btn btn-primary">Visit</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Code Refactor Challenge</h5>
+                    <div class="col-lg-6">
+                        <div class="card Project2">
+                            <div class="card-body">
+                                <h5 class="card-title">Code Refactor Challenge</h5>
+                                <div class="card-main">
                                     <p class="card-text">I refactored code of an existing webpage to make it more
                                         accessible</p>
                                     <a href="https://naomimardon.github.io/Challenge-1/" target="_blank"
@@ -99,10 +101,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">First Portfolio</h5>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card Project3">
+                            <div class="card-body">
+                                <h5 class="card-title">First Portfolio</h5>
+                                <div class="card-main">
                                     <p class="card-text">A portfolio page built without the help of Bootstrap</p>
                                     <a href="https://naomimardon.github.io/Portfolio/" target="_blank"
                                         class="btn btn-primary">Check It Out</a>
@@ -110,23 +114,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Project 4</h5>
+                    <div class="col-lg-6">
+                        <div class="card Project4">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 4</h5>
+                                <div class="card-main">
                                     <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                         Deleniti, magni.</p>
                                     <a href="#" target="_blank" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Project 5</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                        Suscipit, tenetur.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card Project5">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 5</h5>
+                                <div class="card-main">
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Deleniti, magni.</p>
                                     <a href="#" target="_blank" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
@@ -144,20 +150,21 @@
                 <h2 class="heading" id="skills">Skills</h2>
             </div>
             <div class="col-lg-8">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam hic repellendus architecto
-                    commodi sint dolorem, fuga doloremque corrupti aut nam pariatur blanditiis incidunt impedit odio
-                    quidem omnis. Reprehenderit iste fuga saepe voluptatibus inventore vitae necessitatibus autem
-                    nobis
-                    odit, magnam sunt molestiae ab dicta aliquam culpa numquam? Dignissimos, sapiente vero.</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Javascript</li>
+                </ul>
             </div>
         </div>
     </div>
 
 
     <!-- Footer -->
-    <div class="container" id="contact">
+    <div class="container footer">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 footer-section">
                 <h3>Sign up to hear more</h3>
                 <form>
                     <div class="form-row">
@@ -174,13 +181,13 @@
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        <small id="emailHelp" class="form-text">We'll never share your email with anyone
                             else.</small>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 footer-section">
                 <h3>Get in touch</h3>
                 <ul>
                     <li>Phone: <div class="contactDetails">07123456789</div>
@@ -191,8 +198,7 @@
                     <li>Github: <div class="contactDetails"><a href="https://github.com/naomimardon"
                                 target="_blank">naomimardon</a></div>
                     </li>
-                    <li>LinkedIn: <div class="contactDetails"><a
-                                href="https://www.linkedin.com/in/naomi-mardon-79099455/" target="_blank">Naomi
+                    <li>LinkedIn: <div class="contactDetails"><a href="https://www.linkedin.com/in/naomi-mardon-79099455/" target="_blank">Naomi
                                 Mardon</a></div>
                     </li>
                 </ul>

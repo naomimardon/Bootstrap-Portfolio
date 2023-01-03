@@ -2,8 +2,9 @@
 :root {
     --teal: #317773;
     --pink: #FBEAEB;
-    --pink-transparent: rgba(251, 234, 235,0.8);
+    --pink-transparent: rgba(251, 234, 235, 0.8);
     --forestgreen: #3a6b35;
+    --forestgreen-transparent: rgba(58, 107, 53,0.8)
 }
 
 /*General Styles*/
@@ -38,9 +39,9 @@ body {
 }
 
 .navbar-nav a:hover {
-        background-color: var(--pink);
-        color: var(--teal);
-        transition: all 0.5s ease-out;
+    background-color: var(--pink);
+    color: var(--teal);
+    transition: all 0.5s ease-out;
 }
 
 /*Hero Section*/
@@ -110,29 +111,102 @@ h2 {
     border-right: 10px solid var(--forestgreen);
 }
 
-/*About Me Section*/
-
-
 /*Work Section*/
 
+.col-lg-12 {
+    padding: 10px;
+}
 
-/*Skills Section*/
+.col-lg-6 {
+    padding: 10px;
+}
 
+.card-body {
+    border: 10px solid var(--forestgreen);
+}
+
+.card-title {
+    background-color: var(--pink);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 50px 50px 50px 20px;
+}
+
+.card-text {
+    color: var(--pink);
+}
+
+.card-main {
+    background-color: var(--forestgreen-transparent);
+    padding: 10px;
+    margin: 50px 50px 50px 20px;
+    border: 1px solid var(--forestgreen);
+    border-radius: 10px;
+}
+
+.Project1 {
+    background-image: url(../images/02-portfolio-1.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project2 {
+    background-image: url(../images/02-portfolio-2.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project3 {
+    background-image: url(../images/02-portfolio-3.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project4 {
+    background-image: url(../images/02-portfolio-4.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project5 {
+    background-image: url(../images/02-run-buddy.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.btn {
+    background-color: var(--pink);
+    color: var(--forestgreen);
+    border-color: var(--forestgreen);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: var(--forestgreen);
+    border-color: var(--forestgreen);
+    color: var(--pink);
+    box-shadow: 0px 5px 5px 0px var(--pink);
+    transition: all 0.5s ease-out;
+}
 
 /*Footer*/
+
 
 
 /*Media Query - centers Learn More button on devices smaller than large screen (992px)*/
 
 @media (max-width: 991px) {
+
     .btn-outline-primary {
         display: flex;
         justify-content: center;
         margin: 0px 150px;
     }
+
     h2 {
         text-align: center;
     }
+
     .section-heading {
         border-right: 0px;
     }
