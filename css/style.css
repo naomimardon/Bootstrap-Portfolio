@@ -1,0 +1,43 @@
+/*Color Theme*/
+:root {
+    --teal: #317773;
+    --pink: #FBEAEB;
+    --forestgreen: #3a6b35;
+}
+
+/*General Styles*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--forestgreen);
+    margin: 0;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: var(--teal);
+    padding: 15px 10px 15px 0px;
+}
+
+.navbar-brand {
+    background-color: var(--pink);
+    color: var(--teal);
+    text-align: right;
+    padding: 5px 10px 5px 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    justify-content: right;
+    padding: 5px 50px 5px 10px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--pink);
+}
+
+.navbar-nav a:hover {
+        background-color: var(--pink);
+        color: var(--teal);
+        transition: all 0.5s ease-out;
+}
