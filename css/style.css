@@ -78,7 +78,7 @@ body {
     border-radius: 10px;
 }
 
-.btn-outline-primary {
+.btn-hero {
     background-color: var(--pink-transparent);
     color: var(--teal);
     border-color: var(--teal);
@@ -89,7 +89,7 @@ body {
     border-radius: 10px;
 }
 
-.btn-outline-primary:hover {
+.btn-hero:hover {
     background-color: var(--teal);
     border-color: var(--teal);
     color: var(--pink);
@@ -174,14 +174,14 @@ h2 {
     background-position: cover;
 }
 
-.btn {
+.btn-card {
     background-color: var(--pink);
     color: var(--forestgreen);
     border-color: var(--forestgreen);
     border-radius: 10px;
 }
 
-.btn:hover {
+.btn-card:hover {
     background-color: var(--forestgreen);
     border-color: var(--forestgreen);
     color: var(--pink);
