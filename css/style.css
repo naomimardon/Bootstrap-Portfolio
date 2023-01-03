@@ -190,6 +190,37 @@ h2 {
 }
 
 /*Footer*/
+.footer {
+    background-color: var(--teal);
+    color: var(--pink);
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.footer-section {
+    padding: 50px 100px;
+}
+
+
+.btn-footer {
+    background-color: var(--pink);
+    color: var(--teal);
+    border-color: var(--teal);
+    border-radius: 10px;
+}
+
+.btn-footer:hover {
+    background-color: var(--teal);
+    border: 1px solid var(--pink);
+    color: var(--pink);
+    box-shadow: 0px 5px 5px 0px var(--pink);
+    transition: all 0.5s ease-out;
+}
+.contactDetails a {
+    color: var(--pink);
+    text-decoration: underline;
+}
 
 
 
