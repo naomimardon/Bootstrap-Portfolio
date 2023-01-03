@@ -2,6 +2,7 @@
 :root {
     --teal: #317773;
     --pink: #FBEAEB;
+    --pink-transparent: rgba(251, 234, 235,0.8);
     --forestgreen: #3a6b35;
 }
 
@@ -40,4 +41,67 @@ body {
         background-color: var(--pink);
         color: var(--teal);
         transition: all 0.5s ease-out;
+}
+
+/*Hero Section*/
+.jumbotron {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.jumbo-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-left div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Naomi {
+    max-width: 75%;
+    border-radius: 50%;
+}
+
+.display-4 {
+    font-weight: 500;
+    color: var(--teal);
+    background-color: var(--pink-transparent);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--teal);
+    border-radius: 10px;
+}
+
+.btn-outline-primary {
+    background-color: var(--pink-transparent);
+    color: var(--teal);
+    border-color: var(--teal);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 10px 15px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 10px;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--teal);
+    border-color: var(--teal);
+    color: var(--pink);
+    box-shadow: 0px 5px 5px 0px var(--pink);
+    transition: all 0.5s ease-out;
+}
+
+/*Media Query - moves Learn More button to center for devices smaller than large screen (992px)*/
+
+@media (max-width: 991px) {
+    .btn-outline-primary {
+        display: flex;
+        justify-content: center;
+        margin: 0px 150px;
+    }
 }
