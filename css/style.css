@@ -219,7 +219,10 @@ h2 {
 }
 .contactDetails a {
     color: var(--pink);
-    text-decoration: underline;
+}
+
+.contactDetails a:hover {
+text-decoration: underline;
 }
 
 
